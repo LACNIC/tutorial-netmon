@@ -7,7 +7,7 @@ Tutorial de Monitoreo
 3. Instalar el Box correspondiente a Debian 7:
 ```
 $ vagrant box add puphpet/debian75-x64 --provider virtualbox
-```    
+```     
 4. Puede listar los Boxes instalados mediante:
 ```
 $ vagrant box list
