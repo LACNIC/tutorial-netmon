@@ -13,6 +13,7 @@ $ vagrant box add puphpet/debian75-x64 --provider virtualbox
 0. Puede listar los Boxes instalados mediante:
 ```
 $ vagrant box list
+puphpet/debian75-x64 (virtualbox, 2.0)
 ````
 0. Crear un directorio desde donde ejecutar y configurar Vagrant 
 ```
@@ -21,18 +22,19 @@ $ vagrant box list
 ```
 5- 
 
+```
 git
-
+```
 6- Inicializar Vagrant 
-
-vagrant init puphpet/debian75-x64
-
+```
+$ vagrant init puphpet/debian75-x64
+```
 7- Correr la máquina virtual
-
-  $ vagrant up --provider virtualbox
-  
+```
+$ vagrant up --provider virtualbox
+```
 8- Iniciar sesión ssh sobre la máquina virtual
-
-  $ vagrant ssh
-
+```
+$ vagrant ssh
+```
 
