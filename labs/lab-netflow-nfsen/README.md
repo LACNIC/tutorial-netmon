@@ -2,13 +2,13 @@
 Tutorial de Monitoreo
 ---------------------
 
-1- Instalar VirtualBox en su computadora 
+0. Instalar VirtualBox en su computadora 
 
-2- Instalar Vagrant para el SO que utilice (Linux, MacOS, etc) desde:
+0. Instalar Vagrant para el SO que utilice (Linux, MacOS, etc) desde:
 
 https://www.vagrantup.com/downloads.html
 
-3- Instalar el Box correspondiente a Debian 7:
+0. Instalar el Box correspondiente a Debian 7:
 
 $ vagrant box add puphpet/debian75-x64 --provider virtualbox
 
