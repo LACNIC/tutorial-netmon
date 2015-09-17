@@ -27,10 +27,10 @@ Tutorial de Monitoreo
     ```
     $ vagrant init puphpet/debian75-x64
     ```
-7. Clonar 
+7. Copiar el contenido de https://github.com/LACNIC/tutorial-netmon/tree/master/labs/lab-netflow-nfsen al directorio actual donde se corre Vagrant. Si utilizamos git para ejecutamos 
     
     ```
-    git
+    git 
     ```
 8. Correr la máquina virtual
     
