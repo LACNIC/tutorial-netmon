@@ -17,13 +17,25 @@ $ vagrant box list
 
 4- Crear un directorio desde donde ejecutar y configurar Vagrant 
 
-$ mkdir vagrant_monitoreo
+  $ mkdir vagrant_monitoreo
 
-$ cd vagrant_monitoreo/
+  $ cd vagrant_monitoreo/
 
-5- Inicializar Vagrant 
+5- 
+
+git
+
+6- Inicializar Vagrant 
 
 vagrant init puphpet/debian75-x64
+
+7- Correr la máquina virtual
+
+  $ vagrant up --provider virtualbox
+  
+8- Iniciar sesión ssh sobre la máquina virtual
+
+  $ vagrant ssh
 
 
 
