@@ -3,9 +3,7 @@ Tutorial de Monitoreo
 ---------------------
 
 0. Instalar VirtualBox en su computadora 
-
 0. Instalar Vagrant para el SO que utilice (Linux, MacOS, etc) desde https://www.vagrantup.com/downloads.html
-
 0. Instalar el Box correspondiente a Debian 7:
 ```
 $ vagrant box add puphpet/debian75-x64 --provider virtualbox
@@ -20,20 +18,19 @@ puphpet/debian75-x64 (virtualbox, 2.0)
   $ mkdir vagrant_monitoreo
   $ cd vagrant_monitoreo/
 ```
-5- 
-
+0. 
 ```
 git
 ```
-6- Inicializar Vagrant 
+0. Inicializar Vagrant 
 ```
 $ vagrant init puphpet/debian75-x64
 ```
-7- Correr la máquina virtual
+0. Correr la máquina virtual
 ```
 $ vagrant up --provider virtualbox
 ```
-8- Iniciar sesión ssh sobre la máquina virtual
+0. Iniciar sesión ssh sobre la máquina virtual
 ```
 $ vagrant ssh
 ```
