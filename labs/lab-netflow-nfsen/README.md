@@ -21,15 +21,16 @@ Tutorial de Monitoreo
   $ mkdir vagrant_monitoreo
   $ cd vagrant_monitoreo/
     ```
-6. 
-    
-    ```
-    git
-    ```
-7. Inicializar Vagrant
+
+6. Inicializar Vagrant
     
     ```
     $ vagrant init puphpet/debian75-x64
+    ```
+7. Clonar 
+    
+    ```
+    git
     ```
 8. Correr la máquina virtual
     
