@@ -38,4 +38,3 @@ vagrant init puphpet/debian75-x64
   $ vagrant ssh
 
 
-
