@@ -22,18 +22,22 @@ Tutorial de Monitoreo
   $ cd vagrant_monitoreo/
     ```
 6. 
+    
     ```
     git
     ```
 7. Inicializar Vagrant
+    
     ```
     $ vagrant init puphpet/debian75-x64
     ```
 8. Correr la máquina virtual
+    
     ```
     $ vagrant up --provider virtualbox
     ```
 9. Iniciar sesión ssh sobre la máquina virtual
+    
     ```
     $ vagrant ssh
     ```
