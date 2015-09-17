@@ -22,7 +22,7 @@ puphpet/debian75-x64 (virtualbox, 2.0)
 ```
 git
 ```
-0. Inicializar Vagrant 
+0. Inicializar Vagrant
 ```
 $ vagrant init puphpet/debian75-x64
 ```
