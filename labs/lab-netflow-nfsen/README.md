@@ -10,7 +10,7 @@ https://www.vagrantup.com/downloads.html
 $ vagrant box add puphpet/debian75-x64 --provider virtualbox
 
 Puede listar los Boxes instalados mediante:
-vagrant box list
+$ vagrant box list
 
 4- Crear un directorio desde donde ejecutar y configurar Vagrant 
 $ mkdir vagrant_monitoreo
